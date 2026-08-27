@@ -1,0 +1,112 @@
+
+header{
+    background-color: #0a1314;
+    border-color: rgb(101, 98, 98) ;
+}
+body{
+    background-color: rgba(221, 210, 210, 0.731);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.main2{
+    height: 700px;
+    width: 100%;
+    background-color: rgba(221, 210, 210, 0.731);
+}
+.main2_2{
+    height: 150px;
+    width: 100%;
+    background-color: rgba(221, 210, 210, 0.731);
+}
+.main1{
+    height: 150vh;
+    width: 100%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #0a1314;
+}
+
+.main1_2{
+    top: 650px;
+    height: 150vh;
+    width: 100%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: aqua;
+}
+.main1_3{
+    top: 650px;
+    height: 150vh;
+    width: 100%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(255, 0, 72);
+}
+footer{
+    height: 500px;
+    width: 100%;
+    background-color:greenyellow;
+    /* position: absolute;
+    bottom: 0;
+    z-index: 999; */
+}
+.Subject {
+    position: absolute;
+    left: 120px;
+    gap: 10px;
+}
+.title {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 100px;
+    color: #1C1917;
+    margin: 0 0 50px 0;
+    
+}
+.title2 {
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1C1917;
+    margin: 0 0 35px 0;
+}
+.main2_btn{
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    background: white;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main2_btn button {
+    border: none;
+    background: transparent;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #1C1917;
+}
+.m1_title2 {
+    position: absolute;
+    left: 96px;
+    right: 96px;
+}
+.m1_title{
+    margin: 0;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+}

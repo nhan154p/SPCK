@@ -1,0 +1,47 @@
+header{
+    background-color: #0a1314;
+}
+body{
+    background-color: #000000f1;
+    height: 200vh;
+}
+.background_main{
+    display: flex;
+    justify-content: center;
+}
+.background{
+    background-color: #000000;
+    width: 97%;
+    height: 90vh;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.background_item{
+    background-color: #000000;
+    width: 510px;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.background_title{
+    background-color: #000000;
+    width: 700px;
+    height: 470px;
+    margin-top: 10px;
+}
+.title{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
+.price{
+    color:#3B82F6 ;
+    font-size: 24px;
+    font-weight: 600;
+}

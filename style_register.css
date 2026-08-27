@@ -1,0 +1,92 @@
+.back-btn {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    width: 40px;
+    height: 40px;
+}
+.back-btn img {
+    width: 100%;
+    height: 100%;
+}
+body{
+    height: 100vh;
+    background-color: #0a1314;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img_register img{
+    height: 200px;
+    width: 450px;
+    object-fit: contain;
+}
+.form_background {
+    width: 500px;
+    height: 570px;
+    padding: 40px;
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 30px;
+    background-color: #fdfdfd;
+    border-radius: 25px;
+}
+.subject_register {
+    width: 100%;
+}
+
+.subject_register h2 {
+    margin: 0 0 5px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #202223;
+}
+
+.subject_register p {
+    margin: 0 0 40px;
+    font-size: 20px;
+    color: #707070;
+    font-weight: 400;
+}
+.form-register label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #202223;
+}
+
+.form-register input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 0 15px;
+    border: 1px solid #444;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.form-register button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1d2525;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.register_footer {
+    margin-top: 15px;
+    display: flex;
+    gap: 6px;
+    font-size: 15px;
+    color: #202223;
+}
+
+.register_footer a {
+    text-decoration: none;
+    font-weight: 500;
+}
