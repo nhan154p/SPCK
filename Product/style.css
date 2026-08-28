@@ -15,9 +15,11 @@ body{
     height: 90vh;
     margin-top: 10px;
     border-radius: 20px;
+    display: block;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 .background_item{
     background-color: #000000;
@@ -29,6 +31,7 @@ body{
     margin-top: 10px;
 }
 .background_title{
+    position: relative;
     background-color: #000000;
     width: 700px;
     height: 470px;
@@ -41,7 +44,55 @@ body{
     color: white;
 }
 .price{
+    padding-left: 20px;
     color:#3B82F6 ;
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 40px;
+    font-weight: 350px;
+}
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 20px;
+    color: #D4D4D8;
+}
+.star {
+    color: #FFB000;
+}
+.background_price{
+    background: #08090a;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    height: 70px;
+    width: 600px;
+}
+.button{
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+}
+.btn-cart {
+    width: 260px;
+    height: 55px;
+    background: #111827;
+    color: #3B82F6;
+    border: 1px solid #3B82F6;
+    border-radius: 6px;
+    font-size: 18px;
+}
+.btn-cart img {
+    width: 25px;
+    height: 25px;
+}
+.btn-buy {
+    width: 260px;
+    height: 55px;
+    background: #1677FF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+}
+.background2{
 }
